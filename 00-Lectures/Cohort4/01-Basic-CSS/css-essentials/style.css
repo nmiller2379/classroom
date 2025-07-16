@@ -1,0 +1,48 @@
+/* ====== General Styles ====== */
+body {
+  font-family: Arial, sans-serif; /* Use a common sans-serif font */
+  background-color: #f4f4f4; /* Light gray background */
+  margin: 0;
+  padding: 0;
+}
+
+/* ====== Box Model Example ====== */
+.box-model {
+  background-color: white; /* White background */
+  border: 3px solid #4682b4; /* Blue border */
+  padding: 20px; /* Space inside the border */
+  margin: 20px auto; /* Space outside the element */
+  width: 80%; /* Relative width */
+  border-radius: 10px; /* Rounded corners */
+}
+
+/* ====== ID Selector Example ====== */
+#special-section {
+  background-color: #2e8b57; /* Green background */
+  color: white; /* White text */
+  padding: 15px;
+  margin: 20px;
+  text-align: center;
+}
+
+/* ====== Attribute Selector Example ====== */
+input[type="text"] {
+  border: 2px solid #333; /* Dark border */
+  padding: 8px;
+  width: 100%; /* Full width */
+}
+
+/* Style for email input */
+input[type="email"] {
+  border: 2px solid #4682b4; /* Blue border */
+  padding: 8px;
+  width: 100%;
+}
+
+/* ====== Clockwise Notation Example ====== */
+footer {
+  background-color: #333; /* Dark gray background */
+  color: white;
+  text-align: center;
+  padding: 10px 20px 10px 20px; /* Top, Right, Bottom, Left */
+}

@@ -1,0 +1,29 @@
+// Override Bootstrap variables
+$theme-colors: (
+  "primary": #88498f,   // A unique shade of purple
+  "success": #4498b7,   // A fresh green
+  "info": #ff914d,      // A warm orange
+  "warning": #e1d541,   // A vibrant yellow
+  "danger": #ff6347,    // A tomato red
+  "light": #4498b7,     // A very light grey, almost white
+  "dark": #333333       // A darker grey than default
+);
+
+// $navbar-dark-color: #4498b7; // A lighter blue
+
+
+// Import Bootstrap SCSS
+@import 'node_modules/bootstrap/scss/bootstrap';
+
+// Custom navbar text color
+.navbar-dark .navbar-brand,
+.navbar-dark .nav-link {
+    color: #4498b7; // Example: Bright yellow for high contrast
+}
+
+// To change the hover and focus colors as well
+.navbar-dark .nav-link:hover,
+.navbar-dark .nav-link:focus {
+    color: #ffd700; // A slightly different shade of yellow for hover states
+}
+

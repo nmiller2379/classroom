@@ -1,0 +1,59 @@
+/* General styles for the entire page */
+body {
+  font-family: "Arial", "Helvetica", sans-serif; /* Font degradation: falls back to Helvetica, then a generic sans-serif */
+  margin: 0;
+  padding: 0;
+  background-color: #f0f8ff; /* Light blue background */
+  color: #333; /* Dark gray text for readability */
+  line-height: 1.6;
+}
+
+/* Styling the header */
+header {
+  text-align: center;
+  background-color: #4682b4; /* Steel blue */
+  color: white; /* White text for contrast */
+  padding: 1.5rem;
+}
+
+/* Main heading styles */
+h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+/* Paragraphs with the class 'intro' */
+.intro {
+  font-size: 1.2rem;
+  font-style: italic;
+  margin-top: 0.5rem;
+}
+
+/* Styling the main section */
+main {
+  padding: 1rem;
+}
+
+/* Subheading styles */
+h2 {
+  color: #2e8b57; /* Sea green */
+}
+
+/* Styling the benefits list */
+.benefits {
+  list-style-type: square;
+  padding-left: 1.5rem;
+}
+
+.benefits li {
+  margin: 0.5rem 0;
+}
+
+/* Styling the footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #333; /* Dark gray background */
+  color: #fff; /* White text */
+  font-size: 0.9rem;
+}

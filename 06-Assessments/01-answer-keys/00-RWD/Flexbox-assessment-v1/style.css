@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: rgb(3, 33, 3);
+    font-family: "ariel", sans-serif;
+    color: snow;
+  
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 16px;
+  }
+  
+  .question {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .container {
+    background-color: rgb(171, 239, 233);
+    border: 1px solid gray;
+    height: 200px;
+    border-radius: 4px;
+  }
+  
+  .item {
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    background-color: blue;
+    text-align: center;
+  }
+  
+  .sm {
+    width: 20px;
+  }
+  
+  .lg {
+    width: 80px;
+  }
+  
+  /* QUESTION 1 */
+  /* We want to align block elements horizontally. By default, block elements are stacked on each other. */
+  
+  .question-1 .container {
+    
+  }
+  
+  
+  /* QUESTION 2 */
+  /* We need to add equal spaces between the items. */
+  
+  .question-2 .container {
+    
+  }
+  
+  
+  /* QUESTION 3 */
+  /* We need to build a relative size column layout where the first column is three times wider than the other columns */
+  
+  .question-3 .container {
+    
+  }
+  
+  .question-3 .item-1 {
+    
+  }
+  
+  .question-3 .item-2 {
+    
+  }
+  
+  .question-3 .item-3 {
+    
+  }
+  
+  .question-3 .item-4 {
+    
+  }
+  
+  

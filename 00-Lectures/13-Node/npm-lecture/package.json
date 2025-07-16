@@ -1,0 +1,13 @@
+{
+  "name": "npm-lecture",
+  "version": "1.0.0",
+  "description": "A simple project to demonstrate NPM package management.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["mern", "npm", "javascript", "web development"],
+  "author": "",
+  "license": "ISC"
+}
+

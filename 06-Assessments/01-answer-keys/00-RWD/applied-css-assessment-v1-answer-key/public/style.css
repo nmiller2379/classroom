@@ -1,0 +1,94 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.main-image {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.main-image img {
+    max-width: 80%;
+    height: auto;
+}
+
+.main-image figcaption {
+    margin-top: 10px;
+    color: #555;
+}
+
+.pricing-table {
+    margin: 20px;
+}
+
+.plan {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s, background-color 0.3s;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.plan:hover {
+    transform: scale(1.1);
+    background-color: #f9f9f9;
+}
+
+.featured {
+    border: 2px solid #db7734;
+}
+
+.plan-details {
+    position: relative;
+}
+
+.price {
+    font-size: 1.5em;
+    color: #3498db;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    animation: color-change 2s infinite alternate;
+}
+
+@keyframes color-change {
+    0% {
+        background-color: #3498db;
+    }
+
+    50% {
+        background-color: #db7734;
+    }
+
+    100% {
+        background-color: #3498db;
+    }
+}

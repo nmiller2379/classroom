@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>00-DOM-Manipulation-Answers</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- Task 1 -->
+    <div id="content">
+        Initial Text
+        <div>
+            <img id="placeholder" src="#" alt="Placeholder Image" width="50%">
+        </div>
+    </div>
+    <!-- Task 2 -->
+    <div class="box" onclick="toggleHidden(0)" onmouseover="addHighlight(0)" onmouseout="removeHighlight(0)">Box 1</div>
+    <div class="box" onclick="toggleHidden(1)" onmouseover="addHighlight(1)" onmouseout="removeHighlight(1)">Box
+        2</div>
+    <div class="box" onclick="toggleHidden(2)" onmouseover="addHighlight(2)" onmouseout="removeHighlight(2)">Box 3</div>
+
+    <!-- Task 3 -->
+    <ul id="list">
+        <li>List Item 1</li>
+        <li>List Item 2</li>
+    </ul>
+    <button id="addItemBtn" onclick="addItemToList()">Add Item</button>
+    <script src="./script.js"></script>
+</body>
+
+</html>

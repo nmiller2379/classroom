@@ -1,0 +1,78 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa; /* Light gray background for contrast */
+  color: #333; /* Dark text for readability */
+}
+
+/* Hero Section */
+.hero {
+  background-color: #007bff; /* Primary blue */
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+/* Headings - Creating Visual Hierarchy */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+/* Paragraphs and Lists */
+p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+ul li {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+/* Call-to-Action Button */
+.cta-button {
+  display: inline-block;
+  background-color: #ff6600; /* Contrasting call-to-action color */
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  transition: background 0.3s ease-in-out;
+}
+
+/* Button Hover Effect */
+.cta-button:hover {
+  background-color: #cc5500;
+}
+
+/* Content Section */
+.content {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 20px;
+}

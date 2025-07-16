@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(78, 167, 78);
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Optional: Uncomment if you want vertical centering */
+    flex-wrap: wrap; /* Optional: Allows items to wrap if the viewport is too narrow */
+}
+
+#password-generator,
+#password-strength-checker {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* Removed justify-items: auto; as it's not valid here */
+}
+
+textarea {
+    width: 100%;
+    height: 50px;
+}
+

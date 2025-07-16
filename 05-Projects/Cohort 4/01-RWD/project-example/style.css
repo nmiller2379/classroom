@@ -1,0 +1,23 @@
+#products {
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping */
+  justify-content: flex-start; /* Aligns items properly */
+  gap: 20px; /* Spacing between products */
+  padding: 20px;
+}
+
+.product {
+  width: 48%; /* Two items per row (accounting for gap) */
+  padding: 20px;
+  background-color: lightgray;
+  border: 1px solid #ccc;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* Media query for larger screens (768px and above) */
+@media (min-width: 768px) {
+  .product {
+    width: 19%; /* Five items per row (accounting for gap) */
+  }
+}

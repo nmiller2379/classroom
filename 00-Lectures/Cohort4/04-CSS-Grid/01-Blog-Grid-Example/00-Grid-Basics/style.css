@@ -1,0 +1,56 @@
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+  margin: 0;
+}
+
+/* Grid Container */
+.grid-container {
+  display: grid; /* Enables CSS Grid */
+  grid-template-columns: 1fr 2fr 1fr; /* Defines three columns */
+  grid-template-rows: 100px 150px 100px; /* Defines three rows */
+  gap: 15px; /* Modern shorthand for spacing between grid items */
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Grid Items */
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: steelblue;
+  border-radius: 4px;
+}
+
+/* Placing Specific Items */
+.grid-item.special {
+  grid-column: 2 / span 2; /* Starts at column 2 and spans 2 columns */
+  grid-row: 1 / 2; /* Starts at row 1, ends at row 2 */
+  background-color: crimson;
+}
+
+/* Justify and Align Single Item */
+.grid-item.aligned {
+  justify-self: end; /* Aligns to the end (right) of its grid cell */
+  align-self: center; /* Centers vertically */
+  background-color: teal;
+}
+
+/* Responsive Design: Changes layout for smaller screens */
+@media (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr; /* Two columns instead of three */
+    grid-template-rows: auto; /* Allow rows to resize naturally */
+  }
+}

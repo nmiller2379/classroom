@@ -1,0 +1,105 @@
+/* Apply basic styles to the body */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+/* Card-like element with box shadow */
+.card {
+  width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2); /* Creates a shadow */
+  border-radius: 10px;
+}
+
+/* Opacity demonstration */
+.transparent-box {
+  width: 200px;
+  height: 100px;
+  background: rgba(0, 0, 255, 0.5); /* 50% opacity blue box */
+  margin: 20px auto;
+}
+
+/* Text transformation */
+.uppercase-text {
+  text-transform: uppercase; /* Makes text uppercase */
+}
+.line-height-text {
+  line-height: 2; /* Increases readability */
+}
+
+/* Hover effect on links */
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+/* Positioning examples */
+.relative-box {
+  position: relative;
+  top: 20px;
+  left: 10px;
+  background: lightgreen;
+  padding: 10px;
+}
+.absolute-box {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  background: lightcoral;
+  padding: 10px;
+}
+.fixed-box {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background: orange;
+  padding: 10px;
+}
+
+/* Floating elements */
+.float-box {
+  width: 100px;
+  height: 100px;
+  background: skyblue;
+  float: left;
+  margin-right: 10px;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Z-index stacking example */
+.z-box {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+}
+.z-box1 {
+  background: yellow;
+  top: 100px;
+  left: 100px;
+  z-index: 1;
+}
+.z-box2 {
+  background: red;
+  top: 120px;
+  left: 120px;
+  z-index: 2;
+}
+
+/* Centering a div horizontally */
+.centered-div {
+  width: 200px;
+  background: purple;
+  color: white;
+  margin: 20px auto; /* Centers horizontally */
+  padding: 10px;
+}

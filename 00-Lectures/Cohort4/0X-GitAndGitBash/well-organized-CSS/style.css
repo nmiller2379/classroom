@@ -1,0 +1,56 @@
+/* ========================= */
+/* PAGE BACKGROUND           */
+/* ========================= */
+
+/* Changed background to light gray for better readability*/
+body {
+  background-color: lightgray;
+}
+
+/* ========================= */
+/* HEADINGS                  */
+/* ========================= */
+
+/* Made the main heading bigger to stand out - Jason */
+h1 {
+  font-size: 24px;
+  color: black;
+}
+
+/* ========================= */
+/* LISTS */
+/* ========================= */
+/* Custom styles for list elements -Mr. Miller*/
+ol li a {
+    list-style: none;
+}
+
+
+/* ========================= */
+/* PARAGRAPHS                */
+/* ========================= */
+
+/* Adjusted paragraph spacing to improve readability - Mia */
+p {
+  line-height: 1.5;
+}
+
+/* ========================= */
+/* BUTTON STYLES             */
+/* ========================= */
+
+/* Changed button color to blue for contrast - David */
+button {
+  background-color: blue;
+  color: white;
+  padding: 8px 12px;
+}
+
+/* ========================= */
+/* FOOTER                    */
+/* ========================= */
+
+/* Centered footer text - Olivia */
+.footer {
+  text-align: center;
+}

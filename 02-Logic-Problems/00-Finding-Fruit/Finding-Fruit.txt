@@ -1,0 +1,6 @@
+Work with your team to solve this logic problem.
+
+We’re faced with three jars labeled “Apples”, “Oranges”, and “Both”. We cannot see the contents of these jars, but we’re informed that each is mislabeled. The contents of the jar are not described by the label. How many times would you need to draw from a jar in order to accurately label each jar? Explain your answer and how you arrived at it.
+
+
+

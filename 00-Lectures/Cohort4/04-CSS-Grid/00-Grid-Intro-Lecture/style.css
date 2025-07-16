@@ -1,0 +1,58 @@
+/* Grid Container */
+.grid-container {
+  display: grid;
+  /* Sidebar + Two flexible content columns */
+  grid-template-columns: 200px 1fr 1fr;
+  /* Header + Content */
+  grid-template-rows: 100px auto;
+  /* Adds space between grid items */
+  gap: 20px;
+  width: 90%;
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border: 2px solid #333;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+/* Header */
+.header {
+  grid-column: 1 / -1; /* Spans all columns */
+  background-color: darkslateblue;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+/* Sidebar */
+.sidebar {
+  background-color: rgb(117, 117, 117);
+}
+
+/* Main Content */
+.content {
+  background-color: rgb(41, 130, 247);
+  grid-column: 2 / -1; /* Spans two columns */
+}
+
+/* Extra Content */
+.extra {
+  background-color: lightslategray;
+  grid-column: 1 / span 3;
+}
+
+/* Responsive Styling for Smaller Screens */
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr; /* Switch to single column */
+    grid-template-rows: auto; /* Let content size rows */
+  }
+
+  .header,
+  .sidebar,
+  .content,
+  .extra {
+    grid-column: 1 / -1; /* Each takes full width */
+  }
+}

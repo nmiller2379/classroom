@@ -1,0 +1,40 @@
+/* Styling the <body> element */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 20px;
+  padding: 20px;
+}
+
+/* Inheritance: The <h1> element will inherit the font-family */
+h1 {
+  color: blue; /* Overriding body color */
+}
+
+/* Specificity demonstration */
+.special-text {
+  color: green;
+}
+
+#unique-text {
+  color: red;
+}
+
+/* Order of styles: Later declarations override earlier ones */
+p {
+  color: purple;
+}
+p {
+  color: rgb(86, 177, 177); /* This color applies due to cascade */
+}
+
+/* Combining Selectors */
+div p {
+  font-weight: bold;
+}
+
+/* Using !important */
+.override {
+  color: orange !important; /* Overrides other rules */
+}

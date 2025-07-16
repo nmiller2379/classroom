@@ -1,0 +1,19 @@
+{
+  "name": "08-lengthoflastword",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^10.3.0"
+  }
+}

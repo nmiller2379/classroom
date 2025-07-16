@@ -1,0 +1,121 @@
+/* Skew Transformations */
+.skewX-example {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  transform: skewX(45deg);
+  margin: 20px;
+}
+
+.skewY-example {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  transform: skewY(30deg);
+  margin: 20px;
+}
+
+/* Crescent Shape */
+.crescent {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: black;
+  box-shadow: 25px 10px 0 0 orange;
+  margin: 20px;
+}
+
+/* Simple Animation */
+@keyframes colorChange {
+  0% {
+    background-color: red;
+  }
+  50% {
+    background-color: blue;
+  }
+  100% {
+    background-color: red;
+  }
+}
+
+.animated-box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation: colorChange 2s infinite alternate;
+  margin: 20px;
+}
+
+/* Button with hover animation */
+@keyframes slideAndColor {
+  0% {
+    background-color: red;
+    transform: translateX(0);
+  }
+  50% {
+    background-color: blue;
+    transform: translateX(50px);
+  }
+  100% {
+    background-color: red;
+    transform: translateX(0);
+  }
+}
+
+.hover-animate {
+  width: 100px;
+  height: 50px;
+  background-color: red;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.hover-animate:hover {
+  animation: slideAndColor 1s ease-in-out;
+}
+
+/* Heartbeat Animation */
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.heartbeat {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+  border-radius: 50%;
+  animation: heartbeat 1s infinite;
+  margin: 20px;
+}
+
+/* Bezier Curve Animation */
+@keyframes bezierMove {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(100px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.bezier-box {
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  animation: bezierMove 2s cubic-bezier(0.25, 1, 0.5, 1) infinite;
+  margin: 20px;
+}

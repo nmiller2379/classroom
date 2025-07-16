@@ -1,0 +1,69 @@
+/* Text Alignment */
+.center-text {
+  text-align: center;
+}
+.left-text {
+  text-align: left;
+}
+.right-text {
+  text-align: right;
+}
+
+/* Element Sizing */
+.box {
+  width: 200px;
+  height: 100px;
+  background-color: lightblue;
+  margin: 10px auto;
+  text-align: center;
+  line-height: 100px;
+}
+.auto-size {
+  width: auto;
+  padding: 10px;
+  background-color: lightblue;
+  margin: 10px auto;
+}
+
+.auto-content {
+  display: inline-block;
+  width: auto;
+  background-color: lightblue;
+  margin: 10px auto;
+}
+
+/* Text Styling */
+.bold-text {
+  font-weight: bold;
+}
+.italic-text {
+  font-style: italic;
+}
+.underline-text {
+  text-decoration: underline;
+}
+.strikethrough-text {
+  text-decoration: line-through;
+}
+
+/* Styled Horizontal Rule */
+.styled-hr {
+  border: none;
+  height: 3px;
+  background-color: black;
+  margin: 20px 0;
+}
+
+/* Background Color on Text */
+.highlight {
+  background-color: yellow;
+  padding: 5px;
+}
+
+/* Font Sizing */
+.big-text {
+  font-size: 24px;
+}
+.small-text {
+  font-size: 14px;
+}

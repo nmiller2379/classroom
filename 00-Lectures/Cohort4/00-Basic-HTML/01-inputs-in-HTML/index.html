@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Inputs Example</title>
+</head>
+
+<body>
+    <header>
+        <h1>HTML Inputs Example</h1>
+        <p>This page demonstrates the use of various HTML input types and attributes.</p>
+    </header>
+
+    <section>
+
+    </section>
+
+    <main>
+        <!-- A basic login form with username and password fields -->
+        <section>
+            <h2>Login Form</h2>
+            <form>
+                <div>
+                    <!-- Input for username -->
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" placeholder="Enter your username" required>
+                </div>
+                <div>
+                    <!-- Input for password -->
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                </div>
+                <div>
+                    <!-- Submit button -->
+                    <button type="submit">Login</button>
+                </div>
+            </form>
+        </section>
+
+        <!-- Form to collect user email and age with validation -->
+        <section>
+            <h2>User Information</h2>
+            <form>
+                <div>
+                    <!-- Input for email with validation -->
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div>
+                    <!-- Input for age with minimum age restriction -->
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age" min="13" placeholder="Enter your age" required>
+                </div>
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </section>
+
+        <!-- Options for food preferences using checkboxes and radio buttons -->
+        <section>
+            <h2>Food Preferences</h2>
+            <form>
+                <div>
+                    <p>Choose your favorite foods (select all that apply):</p>
+                    <!-- Checkbox inputs -->
+                    <input type="checkbox" id="pizza" name="food" value="pizza">
+                    <label for="pizza">Pizza</label><br>
+
+                    <input type="checkbox" id="sushi" name="food" value="sushi">
+                    <label for="sushi">Sushi</label><br>
+
+                    <input type="checkbox" id="burger" name="food" value="burger">
+                    <label for="burger">Burger</label>
+                </div>
+
+                <div>
+                    <p>Do you eat meat? (choose one):</p>
+                    <!-- Radio button inputs -->
+                    <input type="radio" id="yes" name="meat" value="yes">
+                    <label for="yes">Yes</label><br>
+
+                    <input type="radio" id="no" name="meat" value="no">
+                    <label for="no">No</label>
+                </div>
+
+                <div>
+                    <button type="submit">Submit Preferences</button>
+                </div>
+            </form>
+        </section>
+
+        <!-- A dropdown menu for selecting a programming language -->
+        <section>
+            <h2>Choose a Programming Language</h2>
+            <form>
+                <label for="language">Select a language:</label>
+                <select id="language" name="language">
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="javascript">JavaScript</option>
+                    <option value="python">Python</option>
+                </select>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>End of inputs example page.</p>
+    </footer>
+</body>
+
+</html>

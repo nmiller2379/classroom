@@ -1,0 +1,24 @@
+# Node.js
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# Mac/Windows system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build and dist folders (optional, for compiled projects)
+build/
+dist/
+
+# VS Code settings (optional, but common)
+.vscode/
+
+# Jupyter Notebook checkpoints (optional)
+.ipynb_checkpoints/

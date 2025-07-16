@@ -1,0 +1,73 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Header */
+.header {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* Blog Layout Container */
+.container {
+  display: flex; /* Establishes a flex container */
+  flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+  justify-content: space-between; /* Distributes space evenly */
+  padding: 20px;
+}
+
+/* Sidebar (Left) */
+.sidebar {
+  flex: 1; /* Takes up equal space */
+  max-width: 250px; /* Prevents sidebar from getting too big */
+  order: -1; /* Moves sidebar to the left */
+  background: #f4f4f4;
+  padding: 20px;
+}
+
+/* Main Content */
+.main-content {
+  flex: 2; /* Takes up most of the available space */
+  min-width: 300px; /* Prevents excessive shrinking */
+  padding: 20px;
+}
+
+/* Extra Sidebar or Widgets */
+.extra-sidebar {
+  flex: 1; /* Allows the widget sidebar to grow */
+  max-width: 250px;
+  background: #f4f4f4;
+  padding: 20px;
+}
+
+/* Responsive Design: Stack items vertically on smaller screens */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Stack elements */
+    align-items: center; /* Center align them */
+  }
+
+  .sidebar,
+  .extra-sidebar {
+    max-width: 100%; /* Make sidebars take full width */
+    text-align: center;
+  }
+
+  .main-content {
+    order: -1; /* Moves main content above sidebars */
+  }
+}

@@ -1,0 +1,42 @@
+.container {
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "sidebar main"
+        "footer footer";
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 80px auto 60px;
+    gap: 10px;
+    min-height: 100vh;
+}
+
+.header {
+    grid-area: header;
+    background: #4A90E2;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background: #D64541;
+}
+
+.footer {
+    grid-area: footer;
+    background: #2ECC71;
+}
+
+.main {
+    grid-area: main;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+.card {
+    background: #F4D03F;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+

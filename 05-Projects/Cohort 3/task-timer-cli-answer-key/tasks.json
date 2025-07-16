@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Drink coffee",
+    "startTime": 1723559144858,
+    "endTime": 1723559166275,
+    "duration": "21.42"
+  },
+  {
+    "name": "Eat chicken",
+    "startTime": 1723559195736,
+    "endTime": 1723559219583,
+    "duration": "23.85"
+  },
+  {
+    "name": "Do something",
+    "startTime": 1723559306644,
+    "endTime": 1723559329446,
+    "duration": "22.80"
+  },
+  {
+    "name": "Do something else",
+    "startTime": 1723559318254,
+    "endTime": 1723559348775,
+    "duration": "30.52"
+  },
+  {
+    "name": "task 1",
+    "startTime": 1723642205299,
+    "endTime": null,
+    "duration": null
+  },
+  {
+    "name": "task 2",
+    "startTime": 1723642282106,
+    "endTime": null,
+    "duration": null
+  }
+]

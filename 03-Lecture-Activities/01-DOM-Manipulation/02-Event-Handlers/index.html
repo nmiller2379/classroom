@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01 Handling Events</title>
+</head>
+
+<body>
+    <div class="quiz-container">
+        <h1>Simple Quiz Activity</h1>
+        <div id="question-container">
+            <p id="question-text">What is the capital of France?</p>
+            <div id="options-container">
+                <input type="radio" name="answer" id="option1" value="Paris">
+                <label for="option1">Paris</label><br>
+                <input type="radio" name="answer" id="option2" value="Berlin">
+                <label for="option2">Berlin</label><br>
+                <input type="radio" name="answer" id="option3" value="London">
+                <label for="option3">London</label><br>
+                <input type="radio" name="answer" id="option4" value="Madrid">
+                <label for="option4">Madrid</label><br>
+            </div>
+            <button id="check-answer-btn">Check Answer</button>
+        </div>
+        <div id="result" style="display: none;">
+            <h2>Result</h2>
+            <p id="result-text"></p>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

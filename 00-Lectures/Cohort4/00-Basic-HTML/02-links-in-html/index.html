@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anchor Tag Examples</title>
+    <!-- This document demonstrates various uses of the <a> tag in HTML -->
+</head>
+
+<body>
+    <header>
+        <h1>HTML Anchor Tag Examples</h1>
+        <!-- Navigation links to different sections within the same page -->
+        <nav>
+            <ul>
+                <!-- These href values relate to the id values on our sections -->
+                <li><a href="#section1">Go to Section 1</a></li>
+                <li><a href="#section2">Go to Section 2</a></li>
+                <li><a href="#footer">Go to Footer</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Here, we're using some semantic HTML elements. We will learn more about these as we move on, but they're basically just div elements with fancy names -->
+    <main>
+        <!-- Example of id attribute -->
+        <section id="section1">
+            <h2>Section 1: External Links</h2>
+            <!-- Example of a link to an external website with target and title attributes -->
+            <p>
+                Here is a link to a great resource for learning web development:
+                <a href="https://www.w3schools.com" target="_blank" title="Visit W3Schools">W3Schools</a>.
+            </p>
+        </section>
+
+        <!-- Example of id attribute -->
+        <section id="section2">
+            <h2>Section 2: Nested Links and Dead Links</h2>
+            <!-- Example of a link nested within a paragraph -->
+            <p>
+                This paragraph contains a link to <a href="https://developer.mozilla.org" target="_blank"
+                    title="Visit MDN">MDN Web Docs</a>.
+            </p>
+            <!-- Example of a dead link using the # symbol -->
+            <p>
+                Here is a dead link example: <a href="#">Dead Link</a>.
+            </p>
+        </section>
+
+        <!-- Example of id attribute -->
+        <section id="section3">
+            <h2>Section 3: Clickable Images</h2>
+            <!-- Example of turning an image into a clickable link -->
+            <p>
+                Click on the image below to visit W3Schools:
+            </p>
+            <a href="https://www.w3schools.com" target="_blank">
+                <img src="./W3Schools_logo.svg.png" alt="W3Schools logo" width="150">
+            </a>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <!-- Footer with a link to navigate back to the top of the page -->
+        <p>End of the example page. <a href="#top">Back to top</a></p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+/* General body styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+/* Main quiz container */
+.quiz-container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin: auto;
+  width: 80%;
+  max-width: 600px;
+}
+
+/* Question styling */
+.question {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Options styling */
+.options {
+  list-style: none;
+  padding: 0;
+}
+
+.options li {
+  margin-bottom: 10px;
+}
+
+/* Buttons for each option */
+button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Score display */
+.score {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* Navigation buttons */
+.nav-buttons {
+  margin-top: 20px;
+}
+
+.nav-buttons button {
+  margin-right: 10px;
+  background-color: #28a745;
+}
+
+.nav-buttons button:hover {
+  background-color: #218838;
+}
+
+/* Previous button styling, less prominent */
+.prev-button {
+  background-color: #6c757d;
+}
+
+.prev-button:hover {
+  background-color: #5a6268;
+}

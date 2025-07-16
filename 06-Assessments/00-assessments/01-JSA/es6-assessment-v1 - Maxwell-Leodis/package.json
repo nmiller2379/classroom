@@ -1,0 +1,16 @@
+{
+  "name": "es6-assessment-v1---maxwell-leodis",
+  "version": "1.0.0",
+  "description": "Create a script.js file and an index.htmil file. Ensure the two are connected. Working in your script.js file, complete the follwoing coding challenges. HINT: When you're setting these files up, remember that you will be working with ES6 modules in this assessment.",
+  "main": "add.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

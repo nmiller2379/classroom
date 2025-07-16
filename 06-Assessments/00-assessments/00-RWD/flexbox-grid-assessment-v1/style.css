@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "ariel", sans-serif;
+    color: #333;
+    background-color: snow;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.question {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    font-family: "ariel", sans-serif;
+    color: rgb(250, 250, 250);
+}
+
+.container {
+    background-color: rgb(238, 112, 194);
+    border: 1px solid rgb(0, 0, 0);
+    height: 200px;
+    border-radius: 4px;
+}
+
+.item-flex {
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    background-color: rgb(0, 0, 91);
+    text-align: center;
+}
+
+ul {
+    padding-left: 1.5rem;
+}
+
+.item {
+    padding: 8px;
+    background-color: white;
+    border: 4px solid green;
+    border-radius: 6px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+}
+
+
+/* QUESTION 1 */
+/* We want to align block elements vertically in the center of the space. We also want to reverse the numbered boxes. By default, block elements are stacked on each other. */
+
+.question-1 .container {
+    /* Your code goes here */
+}
+
+
+/* QUESTION 2 */
+/* We need place the items in a row and have them at the bottom right of the content box.*/
+
+.question-2 .container {
+   /* Your code goes here */
+}
+
+/* QUESTION 3 */
+/* For this task we will use a 12-column grid. The 12-column grid is a common way to use CSS Grid. In this  task we need to give item-1 four columns and items-2 six columns. */
+
+.question-3.container-grid {
+    /* Your code goes here */
+}
+
+.question-3 .item-1 {
+    /* Your code goes here */
+}
+
+.question-3 .item-2 {
+    /* Your code goes here */
+}
+
+/* QUESTION 4 */
+/* For this task we will create a sample full-page layout and optimize it for mobile using at least one media query. */
+
+.question-4.container-grid {
+    /* Your code goes here */
+}
+
+.question-4 .header {
+    /* Your code goes here */
+}
+
+.question-4 .navigation {
+    /* Your code goes here */
+}
+
+.question-4 .main {
+    /* Your code goes here */
+}
+
+.question-4 .sidebar {
+   /* Your code goes here */
+}
+
+.question-4 .ads {
+    /* Your code goes here */
+}
+
+.question-4 .footer {
+    /* Your code goes here */
+}
+
+@media only screen and (max-width: 550px) {
+    .question-4.container-grid {
+    /* Your code goes here */
+    }
+}

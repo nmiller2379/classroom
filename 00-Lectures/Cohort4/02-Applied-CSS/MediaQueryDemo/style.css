@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* using background image */
+  background: url(./pexels-eberhard-grossgasteiger-2088170.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+
+img {
+  width: 20%;
+  display: block;
+  margin: 20px auto;
+}
+
+#page-title {
+  text-align: center;
+  background-color: rgb(137, 171, 173);
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+#intro-para {
+  text-align: center;
+  border: 2px solid black;
+  width: 40%;
+  margin: auto;
+  padding: 10px;
+  background-color: rgb(191, 191, 191);
+}
+
+.sections {
+  border: 2px solid black;
+  width: 40%;
+  margin: 10px auto;
+  margin-bottom: 50px;
+  background-color: rgb(191, 191, 191);
+}
+
+footer {
+  background-color: rgb(137, 171, 173);
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  height: 35px;
+  font-size: 24pt;
+}
+
+/* The media query is a rule that makes it possible to have different styles/rules for different media types. They can be used to check many things such as width and height of the viewport(your browser screen size), oreintation of the viewport (landscape or portrait), and resolution.  */
+
+/* @media: This is the keyword that signifies the beginning of a media query. 
+
+only screen: Specifies that the styles inside the media query should only apply to screens (as opposed to, for example, print styles).
+
+and: Combines multiple conditions within the media query.
+
+(max-width: 600px): This is the condition that determines when the styles inside the media query should be applied. In this case, the styles will apply when the screen width is 600 pixels or less.
+*/
+
+/* Media Query for small screens (max-width: 600px) */
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #ffb6c1;
+    /* Light Pink */
+  }
+}
+
+/* Media Query for medium screens (min-width: 601px) and (max-width: 900px) */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  body {
+    background-color: #add8e6;
+    /* Light Blue */
+  }
+}
+
+/* Media Query for large screens (min-width: 901px) */
+@media only screen and (min-width: 901px) {
+  body {
+    /* background-image: none; */
+    background-color: #90ee90;
+    /* Light Green */
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .sections {
+    background-color: rgba(255, 192, 203, 0.675);
+    padding: 10PX;
+    font-family: cursive;
+    text-transform: uppercase;
+  }
+
+  h3 {
+    color: red;
+  }
+
+  footer {
+    background-color: aqua;
+  }
+}

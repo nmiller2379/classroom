@@ -1,0 +1,36 @@
+Work together as a team to solve this problem. When you're done you'll share your solution with the class.
+
+A farmer with a fox, a goose and a sack of corn needs to cross a river. The farmer has a rowboat, but there is room for only the farmer and one of his three items. Unfortunately, both the fox and the goose are hungry. The fox cannot be left alone with the goose or the fox will eat the goose. Likewise, the goose cannot be left alone with the sack of corn or the goose will eat the corn. How does the farmer get everything across the river?
+
+THE SOLUTION 
+1. The farmer takes the goose from side A to side B, leaving the fox and the corn on side A.
+2. The farmer goes back to side A, picks up the fox and brings it from side A to Side B.
+3. The farmer takes the goose back to side A. He picks up the corn and takes it to side B, leaving the fox and the corn on side B, the goose on side A.
+4. The farmer goes back to side A, picks up the goose and brings it to side B. 
+This solves the problem. All three are on the other side. They have never been alone togehter. Of course, it's hard to solve unless you hit upon or know the idea of taking somethign back on the return trip.
+
+PROBLEM SOLVING PROCESS
+1. Restate the problem formally
+    - Identify the initial state (it may help to draw it): Start by identifying the initial state of the farmer, fox, goose, and sack of corn. In this case, all of them are on one side of the river.
+    - Define the goal: Clearly define the goal state, which is to have the farmer, fox, goose, and sack of corn safely on the other side of the river.
+    Analyze Constraints: Understand the constraints given in the problem. The fox can't be left alone with the goose, and the goose can't be left alone with the sack of corn. The farmer must be present when any of the other two are on a side of the river. The farmer can only fit himself and one of the items in the boat at a time.
+    Plan Each Move: We can refer to these actions as operations. By enumerating all the possible operations, we can solve many problems by testing every combination of oerations until we find one that works. (This is an example of what we would call brute force, which will work but isn't always the best approach). More generally, by restating the problem in more formal terms, we can often uncover solutions that would have otherwise eluded us. Let's list the operations (there are various ways to do it). One way is to make a specific list of the actions we think we can take:
+    1. Carry the fox to the far side of the river.
+    2. Carry the goose to the far side fo the river.
+    3. Cary the corn to the far side of the river.
+    This doesn't really help, though, because it doesn't give us insight into the hidden (or un-recognized 4 operation which is to cary an item back). Let's try to make the operations more general:
+    1. Row boat from one shore to the other
+    2. If boat is empty, load item from shore
+    3. If boat is not empty, unload the item to the shore.
+    By thinking about the problem in the most general terms, this second list of operations will allow us to solve the problem without the need for an "ah-hah" moment. If we generate all possible sequences of moves, ending each sequence once it violates one of our constraints or reaches a configuration we've seen before, we will eventually hit upon the sequence of the solution.
+
+LESSONS LEARNED
+1. The problem is a great example of contraints. If you remove any of the contraints the problems becomes rediculously easy. One of the first things we need to learn when solving problems is to solve the problem, not avoid the problem.
+
+2. Restating the problem in a more formal manner is a great technique for gaining insight into a problem. That's why we have a Lewis in the classroom.
+
+3. The big takeaway is that thinking about the problem may be as productive, or in some cases more productive, than thinking about the solution.
+
+If they're stuck and looking for hints, we want to try to push them toward the kind of thinking outlined about with the goal of helping them have the two lessons learned at the end of the process. 
+
+

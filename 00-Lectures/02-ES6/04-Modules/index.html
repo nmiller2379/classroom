@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ES6 Modules</title>
+    <script type="module" src="./logger.js"></script>
+    <script type="module" src="./math.js"></script>
+    <script type="module" src="./utilities.js"></script>
+    <!-- <script type="module" src="./app.js"></script> -->
+</head>
+
+<body>
+    <h1>Check the console</h1>
+    <script type="module">
+        import { add as addition, subtract as subtraction } from './math.js';
+        import customLog from './logger.js';
+        import customSquare, { PI } from './utilities.js';
+
+        console.log(addition(5, 3)); // Output: 8
+        console.log(subtraction(7, 2)); // Output: 5
+
+        customLog('Hello, ES6 Modules!'); // Output: Hello, ES6 Modules!
+
+        console.log(PI); // Output: 3.14
+        console.log(customSquare(5)); // Output: 25
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+.hidden { 
+    display: none; 
+}
+
+.highlight { 
+    background-color: yellow; 
+}
+
+.new-class { font-weight: bold; 
+}
+
+.active {
+    background-color: aqua;
+}
+

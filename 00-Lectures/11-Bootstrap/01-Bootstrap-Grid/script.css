@@ -1,0 +1,18 @@
+/* Custom CSS */
+.custom-header {
+    background-color: #f8f9fa; /* Light grey background */
+}
+.custom-main {
+    background-color: #e9ecef; /* Slightly darker grey */
+}
+.custom-sidebar {
+    background-color: #dee2e6; /* Even darker grey */
+}
+.custom-footer {
+    background-color: #ced4da; /* Dark grey */
+}
+.carousel-item img {
+    width: 100%; /* Ensure the images are responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Optional: adds rounded corners */
+}
